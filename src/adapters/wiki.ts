@@ -52,8 +52,8 @@ function parseHtml (html: string): string {
 }
 
 function parseTag (node: CheerioElement): string | null {
-  let data: string | null = null;
-  let queue: CheerioElement[] = [node];
+  let data = null;
+  let queue = [node];
 
   while (queue.length) {
     let currentNode = queue.shift();
