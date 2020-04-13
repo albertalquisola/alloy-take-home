@@ -3,6 +3,7 @@ import 'dotenv/config';
 import express, { Application, Request, Response } from 'express';
 
 import routes from './routes';
+import jobs from './jobs';
 
 const app: Application = express();
 
